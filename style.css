@@ -1,0 +1,30 @@
+body {
+  min-height: 3000px;
+}
+
+.section1 {
+  padding-top: 8rem;
+  background-color: #146a40;
+  color: white;
+}
+
+.nav-bar {
+  background-color: #0d4c2d !important;
+  transition: 0.8s;
+  /* z-index: 100; */
+}
+.navbar-brand {
+  font-family: "Parisienne", cursive;
+}
+
+#projects {
+  background-color: #146a40;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#footer {
+  background-color: #146a40;
+}
