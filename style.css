@@ -23,8 +23,16 @@ body {
 
 section {
   padding-top: 5rem;
+  background-color: rgb(251, 251, 247);
 }
 
 #footer {
   background-color: #146a40;
+}
+
+hr {
+  color: #ffc107;
+  width: 25%;
+  opacity: 100%;
+  margin: 0 auto;
 }
