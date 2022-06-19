@@ -21,6 +21,10 @@ body {
   background-color: #146a40;
 }
 
+#projects img:hover {
+  transform: scale(0.9);
+}
+
 section {
   padding-top: 5rem;
   background-color: rgb(251, 251, 247);
