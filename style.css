@@ -30,6 +30,34 @@ section {
   background-color: rgb(251, 251, 247);
 }
 
+.section-title h2 {
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 1px;
+  background-color: #83827d;
+  bottom: 1px;
+  left: calc(50% - 80px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: #ffc107;
+  bottom: 0px;
+  left: calc(50% - 20px);
+}
+
 #footer {
   background-color: #146a40;
 }
